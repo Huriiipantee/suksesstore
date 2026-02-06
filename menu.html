@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9Brothers Store</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- MENU -->
+<div class="container">
+  <h1>MENU MAKANAN</h1>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="stickymilk.jpg">
+      <h2>Sticky Milk</h2>
+      <p>Minuman susu creamy dengan rasa manis yang lembut dan segar</p>
+      <p class="product-price">Rp 5.000</p>
+      <button onclick="addToCart('Risol Mayo Keju',3000,'assets/risol.png')">
+        Tambah Keranjang
+      </button>
+    </div>
+
+    <div class="product-card">
+      <img src="cireng.jpg">
+      <h2>Cireng</h2>
+      <p>Cireng isi telur , renyah di luar dan kenyal di dalam.</p>
+      <p class="product-price">Rp 5.000/3pcs</p>
+      <button onclick="addToCart('Jasuke',5000,'https://blog.tokowahab.com/wp-content/uploads/2018/08/resep-jasuke.jpg')">
+        Tambah Keranjang
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
